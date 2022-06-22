@@ -20,13 +20,11 @@ handleContent = () => {
           title="About Hooks"
           onClose={this.handleContent}
         >
-          <div className="expand__content">
-            <p>
-              Hooks are a new addition in React 16.8. 
-              They let you use state and other React 
-              features without writing a class.
-            </p>
-          </div>
+          <p>
+            Hooks are a new addition in React 16.8. 
+            They let you use state and other React 
+            features without writing a class.
+          </p>
         </Expand>
       </div>
     );
