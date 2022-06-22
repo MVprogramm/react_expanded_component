@@ -17,7 +17,7 @@ handleContent = () => {
       <div className="app">
         <Expand 
           isExpand={this.state.isExpand} 
-          title="About Hooks"
+          title="Some title"
           onClose={this.handleContent}
         >
           <p>
