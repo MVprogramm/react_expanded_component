@@ -20,9 +20,7 @@ const Expand = ({ isExpand, children, title, onClose }) => {
         {arrowDirection}
       </button>
     </div>
-    <div className="expand__content">
-      {expandContent}
-    </div>
+    {expandContent}
   </div>
   );
 }
