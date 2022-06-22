@@ -7,8 +7,7 @@ const Expand = ({ isExpand, children, title, onClose }) => {
       expandContent = children;
       arrowDirection = "▲";
     }
-    
-
+  
   return (
     <div className="expand border">
     <div className="expand__header">
@@ -20,7 +19,9 @@ const Expand = ({ isExpand, children, title, onClose }) => {
         {arrowDirection}
       </button>
     </div>
-    {expandContent}
+     <div className="expand__content">
+      {expandContent}
+    </div>
   </div>
   );
 }
